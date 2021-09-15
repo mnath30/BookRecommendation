@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.printBooks {
+  font-size: 2rem;
+  padding: 1rem;
+  width: max-content;
+  border: 2px solid magenta;
+  margin: 1rem auto;
+}
