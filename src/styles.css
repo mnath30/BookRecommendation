@@ -2,11 +2,51 @@
   font-family: sans-serif;
   text-align: center;
 }
+:root {
+  --green: #34d399;
+  --dark-green: #10b981;
+  --light-green: #6ee7b7;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: var(--light-green);
+  padding: 0.2rem;
+  margin: 0;
+  width: 100%;
+}
+.sub-heading {
+  max-width: 70%;
+  margin: 0.3rem auto;
+  padding: 0.4rem;
+}
+.main {
+  max-width: 70%;
+  margin: auto;
+}
 
 .printBooks {
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 1.2rem;
+  padding: 0.3rem;
   width: max-content;
-  border: 2px solid magenta;
+  border: 2px solid var(--dark-green);
   margin: 1rem auto;
+  border-radius: 0.2rem;
+  width: 100%;
+}
+.button {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  border: 2px solid var(--dark-green);
+  background-color: var(--green);
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--light-green);
 }
